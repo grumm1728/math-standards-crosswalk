@@ -1,0 +1,275 @@
+{
+  "state": "TX",
+  "grade": 2,
+  "synthesis_method": "LLM-assisted synthesis from primary source documents (TEA June 2024, CCSS official)",
+  "validation_sources": [
+    "TEA Grade 2 TEKS (June 2024) — tea.texas.gov",
+    "CCSS official — corestandards.org",
+    "Robert Kaplinsky TEKS/CCSS comparison — robertkaplinsky.com",
+    "TPT Grade 2 TEKS-to-CCSS crosswalk alignment document (free)"
+  ],
+  "domain_summary": {
+    "OA": { "avg_coverage": 0.76, "note": "TEKS extends computation range and introduces multiplication/division concepts explicitly at Grade 2; CCSS odd/even equation-writing partially absent." },
+    "NBT": { "avg_coverage": 0.82, "note": "TEKS extends place value to 1,200 (vs 1,000); strong alignment on computation. CCSS NBT.B.9 (explain why strategies work) has no direct TEKS content standard equivalent." },
+    "MD": { "avg_coverage": 0.70, "note": "Key gaps: TEKS lacks line plots (MD.D.9). TEKS time standard is MORE rigorous (nearest minute vs. nearest 5 min). Money scope narrower in TEKS (coins only, no dollar bills)." },
+    "G": { "avg_coverage": 0.82, "note": "TEKS geometry is broader (12-sided polygons, 3D solids, compose/decompose). Fraction partitioning in CCSS G.A.3 covered more deeply in TEKS 2.3 strand, but TEKS omits thirds." }
+  },
+  "mappings": [
+    {
+      "ccss_id": "CCSS.Math.Content.2.OA.A.1",
+      "state_standard_ids": ["TX.TEKS.Math.2.4C", "TX.TEKS.Math.2.7C"],
+      "coverage_score": 0.85,
+      "alignment_type": "partial",
+      "grade_shift": 0,
+      "lane": "modify",
+      "notes": "TEKS 2.4C extends range to 1,000 (vs CCSS 100) and covers multi-step problems. 2.7C adds unknowns-in-any-position. However, CCSS specifies all five problem types (add to, take from, put together, take apart, compare) more explicitly than TEKS. Curriculum materials should add clearer problem-type categorization."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.OA.B.2",
+      "state_standard_ids": ["TX.TEKS.Math.2.4A"],
+      "coverage_score": 0.95,
+      "alignment_type": "full",
+      "grade_shift": 0,
+      "lane": "reuse",
+      "notes": "Near-identical. TEKS uses 'automaticity' vs CCSS 'fluency/from memory.' Both require mastery of all sums within 20. Existing CCSS materials are directly usable."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.OA.C.3",
+      "state_standard_ids": ["TX.TEKS.Math.2.7A"],
+      "coverage_score": 0.65,
+      "alignment_type": "partial",
+      "grade_shift": 0,
+      "lane": "modify",
+      "notes": "TEKS 2.7A covers odd/even determination (extends to 40 vs CCSS 20). Missing: CCSS requires writing an equation to express an even number as a sum of two equal addends — a key foundation for multiplication. This equation-writing component needs to be added for TEKS-aligned materials."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.OA.C.4",
+      "state_standard_ids": ["TX.TEKS.Math.2.6A"],
+      "coverage_score": 0.60,
+      "alignment_type": "partial",
+      "grade_shift": 0,
+      "lane": "modify",
+      "notes": "CCSS focuses specifically on rectangular arrays (up to 5×5) and writing total as sum of equal addends. TEKS 2.6A addresses equal groups and multiplication situations but does not specify rectangular arrays or the equation-writing format. Array-based tasks will need modification to shift toward contextual equal-groups framing for TEKS."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.NBT.A.1",
+      "state_standard_ids": ["TX.TEKS.Math.2.2A"],
+      "coverage_score": 0.92,
+      "alignment_type": "exceeds",
+      "grade_shift": 0,
+      "lane": "reuse",
+      "notes": "TEKS 2.2A extends to 1,200 and includes the thousands place, going beyond CCSS three-digit scope. Core conceptual content (hundreds, tens, ones decomposition) is fully aligned. CCSS materials usable; consider adding 1,200 extension for TEKS."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.NBT.A.2",
+      "state_standard_ids": ["TX.TEKS.Math.2.7B"],
+      "coverage_score": 0.55,
+      "alignment_type": "partial",
+      "grade_shift": 0,
+      "lane": "modify",
+      "notes": "TEKS lacks an explicit skip-counting standard. 2.7B covers +/- 10 or 100 using place value (aligns to the 10s/100s portion of CCSS NBT.A.2), but skip-counting by 5s and the broader 'count within 1,000' expectation have no direct TEKS equivalent. Skip-counting by 5s content will need to be flagged as CCSS-only."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.NBT.A.3",
+      "state_standard_ids": ["TX.TEKS.Math.2.2B"],
+      "coverage_score": 0.95,
+      "alignment_type": "exceeds",
+      "grade_shift": 0,
+      "lane": "reuse",
+      "notes": "Direct match. TEKS 2.2B covers standard, word, and expanded forms to 1,200 (vs CCSS 1,000). Existing materials are fully reusable."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.NBT.A.4",
+      "state_standard_ids": ["TX.TEKS.Math.2.2C", "TX.TEKS.Math.2.2D"],
+      "coverage_score": 0.95,
+      "alignment_type": "exceeds",
+      "grade_shift": 0,
+      "lane": "reuse",
+      "notes": "TEKS 2.2D covers compare/order with >, <, = to 1,200. 2.2C adds generating numbers greater/less than a given number. TEKS exceeds CCSS scope. Existing materials fully usable."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.NBT.B.5",
+      "state_standard_ids": ["TX.TEKS.Math.2.4B"],
+      "coverage_score": 0.90,
+      "alignment_type": "full",
+      "grade_shift": 0,
+      "lane": "reuse",
+      "notes": "Strong alignment. Both emphasize strategies based on place value and properties of operations. TEKS adds 'algorithms' explicitly as a strategy type. Existing CCSS materials usable with minor algorithm emphasis added."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.NBT.B.6",
+      "state_standard_ids": ["TX.TEKS.Math.2.4B"],
+      "coverage_score": 0.95,
+      "alignment_type": "full",
+      "grade_shift": 0,
+      "lane": "reuse",
+      "notes": "Both explicitly require adding up to four two-digit numbers. Near-identical expectation."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.NBT.B.7",
+      "state_standard_ids": ["TX.TEKS.Math.2.4C"],
+      "coverage_score": 0.75,
+      "alignment_type": "partial",
+      "grade_shift": 0,
+      "lane": "modify",
+      "notes": "TEKS 2.4C covers computation within 1,000 in word problem contexts. CCSS NBT.B.7 more explicitly requires using concrete models/drawings AND relating strategies to a written method, AND explaining composing/decomposing of tens and hundreds. The conceptual articulation requirement (relate strategy to written method) will need to be added for CCSS-aligned curriculum."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.NBT.B.8",
+      "state_standard_ids": ["TX.TEKS.Math.2.7B"],
+      "coverage_score": 0.90,
+      "alignment_type": "full",
+      "grade_shift": 0,
+      "lane": "reuse",
+      "notes": "TEKS 2.7B directly addresses +/- 10 or 100 using place value understanding, extended to 1,200. Near-identical to CCSS. Existing materials fully usable."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.NBT.B.9",
+      "state_standard_ids": ["TX.TEKS.Math.2.1G"],
+      "coverage_score": 0.35,
+      "alignment_type": "partial",
+      "grade_shift": 0,
+      "lane": "create",
+      "notes": "Critical gap. CCSS NBT.B.9 requires students to explain WHY addition and subtraction strategies work using place value and properties — a specific metacognitive/conceptual standard. TEKS addresses explanation only through process standard 2.1G (justify mathematical ideas), not as a content standard. No TEKS content standard targets this explicit explanatory reasoning about computation. New content assets needed."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.MD.A.1",
+      "state_standard_ids": ["TX.TEKS.Math.2.9A", "TX.TEKS.Math.2.9D"],
+      "coverage_score": 0.92,
+      "alignment_type": "full",
+      "grade_shift": 0,
+      "lane": "reuse",
+      "notes": "TEKS splits into 2.9A (using concrete models) and 2.9D (measuring to nearest marked unit with named tools). Together they fully cover CCSS. 2.9D adds precision of 'nearest marked unit.' Existing materials reusable."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.MD.A.2",
+      "state_standard_ids": ["TX.TEKS.Math.2.9B"],
+      "coverage_score": 0.75,
+      "alignment_type": "partial",
+      "grade_shift": 0,
+      "lane": "modify",
+      "notes": "TEKS 2.9B captures the inverse relationship concept (more parts = smaller unit). CCSS specifically requires the physical act of measuring the same object twice with different units. The hands-on two-measurement task is the performance aspect missing from TEKS. Modify materials to embed the conceptual explanation without requiring the double-measurement procedure."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.MD.A.3",
+      "state_standard_ids": ["TX.TEKS.Math.2.9E"],
+      "coverage_score": 0.75,
+      "alignment_type": "partial",
+      "grade_shift": 0,
+      "lane": "modify",
+      "notes": "TEKS 2.9E includes estimation within length problem-solving, but CCSS specifies estimation across four named units (inches, feet, centimeters, meters) as a standalone skill. The multi-unit estimation emphasis needs to be explicit in TEKS-aligned materials."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.MD.A.4",
+      "state_standard_ids": ["TX.TEKS.Math.2.9D", "TX.TEKS.Math.2.9E"],
+      "coverage_score": 0.60,
+      "alignment_type": "partial",
+      "grade_shift": 0,
+      "lane": "modify",
+      "notes": "No TEKS standard directly targets measuring and comparing the lengths of two objects and expressing the difference. 2.9D (measure to nearest unit) and 2.9E (length problem-solving) together partially cover this, but the comparison/difference framing is not explicit. Materials need a length-comparison task type added."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.MD.B.5",
+      "state_standard_ids": ["TX.TEKS.Math.2.9E", "TX.TEKS.Math.2.4C"],
+      "coverage_score": 0.78,
+      "alignment_type": "partial",
+      "grade_shift": 0,
+      "lane": "modify",
+      "notes": "TEKS 2.9E (length problems) and 2.4C (add/sub word problems) together cover the computation, but CCSS specifically requires using ruler drawings and number line representations as solution strategies. The measurement-context word problem format overlaps well; the specific ruler-drawing representation needs to be added."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.MD.B.6",
+      "state_standard_ids": ["TX.TEKS.Math.2.2E", "TX.TEKS.Math.2.2F", "TX.TEKS.Math.2.9C"],
+      "coverage_score": 0.72,
+      "alignment_type": "partial",
+      "grade_shift": 0,
+      "lane": "modify",
+      "notes": "TEKS has strong number line coverage: 2.2E (locate numbers), 2.2F (name points), 2.9C (numbers as distances). However, CCSS explicitly requires using the number line to represent and calculate sums and differences within 100. The computation-on-number-line aspect is absent from TEKS and needs to be added."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.MD.C.7",
+      "state_standard_ids": ["TX.TEKS.Math.2.9G"],
+      "coverage_score": 0.95,
+      "alignment_type": "exceeds",
+      "grade_shift": 0,
+      "lane": "reuse",
+      "notes": "Notable: TEKS is MORE rigorous. 2.9G requires time to the nearest one-minute increment; CCSS only requires nearest five minutes. Both cover a.m./p.m. and both clock types. CCSS materials can be reused and will actually be below the TEKS precision level — consider noting this for teachers."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.MD.C.8",
+      "state_standard_ids": ["TX.TEKS.Math.2.5A", "TX.TEKS.Math.2.5B"],
+      "coverage_score": 0.65,
+      "alignment_type": "partial",
+      "grade_shift": 0,
+      "lane": "modify",
+      "notes": "TEKS 2.5A limits to coins up to $1.00; CCSS includes dollar bills and requires solving word problems with mixed currency. TEKS 2.5B covers notation (¢, $, decimal point). Content gap: dollar bills and multi-denomination word problems (e.g., 'You have 1 dollar, 2 dimes, 3 pennies...') are in CCSS but not TEKS at Grade 2. Modify materials to remove dollar-bill problems or reframe as TEKS enrichment."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.MD.D.9",
+      "state_standard_ids": [],
+      "coverage_score": 0.0,
+      "alignment_type": "absent",
+      "grade_shift": 2,
+      "lane": "create",
+      "notes": "Significant gap. Line plots with measurement data do not appear in TEKS at Grade 2. TEKS uses pictographs and bar graphs exclusively for data at this level. Line plots emerge in TEKS around Grade 4. For CCSS-aligned curriculum, line plot content needs to be built from scratch. For TEKS-aligned curriculum, this standard can be deferred or omitted entirely."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.MD.D.10",
+      "state_standard_ids": ["TX.TEKS.Math.2.10A", "TX.TEKS.Math.2.10B", "TX.TEKS.Math.2.10C", "TX.TEKS.Math.2.10D"],
+      "coverage_score": 0.92,
+      "alignment_type": "exceeds",
+      "grade_shift": 0,
+      "lane": "reuse",
+      "notes": "Strong alignment. TEKS covers both pictographs and bar graphs; adds intervals of one OR MORE (vs CCSS single-unit scale only), draw conclusions (2.10D), and predictions. TEKS data strand is actually broader. Existing CCSS materials are fully reusable; TEKS adds multi-interval scale and inference which are enrichment opportunities."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.G.A.1",
+      "state_standard_ids": ["TX.TEKS.Math.2.8A", "TX.TEKS.Math.2.8B", "TX.TEKS.Math.2.8C"],
+      "coverage_score": 0.90,
+      "alignment_type": "exceeds",
+      "grade_shift": 0,
+      "lane": "reuse",
+      "notes": "TEKS is broader. 2.8A covers 2D shape creation by attributes; 2.8C extends classification to polygons with up to 12 sides (vs CCSS hexagon max); 2.8B adds explicit 3D solid classification (spheres, cones, cylinders, prisms) beyond CCSS mention of cubes only. Core shape identification content fully reusable; 3D solid classification is TEKS addition."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.G.A.2",
+      "state_standard_ids": ["TX.TEKS.Math.2.9F", "TX.TEKS.Math.2.8E"],
+      "coverage_score": 0.78,
+      "alignment_type": "partial",
+      "grade_shift": 0,
+      "lane": "modify",
+      "notes": "CCSS frames partitioning a rectangle into rows/columns of squares as a foundation for multiplication (arrays). TEKS 2.9F covers the same physical action but frames it as area measurement (counting square units). TEKS 2.8E addresses decomposing shapes generally. The array-thinking and multiplication-connection framing in CCSS is absent from TEKS; the area-measurement framing in TEKS is absent from CCSS. Modify to bridge both framings or choose the TEKS area framing."
+    },
+    {
+      "ccss_id": "CCSS.Math.Content.2.G.A.3",
+      "state_standard_ids": ["TX.TEKS.Math.2.3A", "TX.TEKS.Math.2.3B", "TX.TEKS.Math.2.3D"],
+      "coverage_score": 0.72,
+      "alignment_type": "partial",
+      "grade_shift": 0,
+      "lane": "modify",
+      "notes": "Key difference: CCSS includes thirds (2, 3, or 4 equal shares); TEKS 2.3A uses halves, fourths, and eighths — thirds are absent. TEKS adds non-examples (2.3D) and the size-of-part relationship (2.3B) not in CCSS. TEKS fraction content extends beyond one whole (2.3C), which CCSS does not address here. Materials must replace thirds content with eighths content, and add size-relationship discussions for TEKS alignment."
+    }
+  ],
+  "teks_only": [
+    {
+      "state_standard_ids": ["TX.TEKS.Math.2.3B", "TX.TEKS.Math.2.3C"],
+      "topic": "Fractions beyond one whole and size relationships",
+      "notes": "TEKS develops fraction understanding more deeply at Grade 2: counting fractional parts beyond one whole (2.3C) and explicitly explaining that more parts = smaller size (2.3B). These concepts appear in CCSS only at Grade 3. Create-from-scratch content for TEKS-only curricula."
+    },
+    {
+      "state_standard_ids": ["TX.TEKS.Math.2.6A", "TX.TEKS.Math.2.6B"],
+      "topic": "Contextual multiplication and division introduction",
+      "notes": "TEKS explicitly introduces multiplication (equal groups joined) and division (equal groups separated) at Grade 2 through contextual/concrete modeling. CCSS introduces only multiplication foundations through arrays and repeated addition at Grade 2; division is not addressed until Grade 3. This is a meaningful TEKS advancement. New content needed: contextual equal-groups stories for both operations."
+    },
+    {
+      "state_standard_ids": ["TX.TEKS.Math.2.8B", "TX.TEKS.Math.2.8D"],
+      "topic": "3D solid classification and composition",
+      "notes": "TEKS covers classification of spheres, cones, cylinders, rectangular prisms, and triangular prisms using formal language (2.8B) and composing 3D solids (2.8D). CCSS Grade 2 geometry only mentions cubes in passing. Full 3D solid unit needs to be created for TEKS alignment."
+    },
+    {
+      "state_standard_ids": ["TX.TEKS.Math.2.11A", "TX.TEKS.Math.2.11B", "TX.TEKS.Math.2.11C", "TX.TEKS.Math.2.11D"],
+      "topic": "Personal Financial Literacy",
+      "notes": "Entirely absent from CCSS. TEKS requires Grade 2 students to understand saving vs. spending, deposits vs. withdrawals, compound saving, and responsible borrowing. This is a full Texas-only strand requiring all-new content creation with no CCSS analog to draw from at any grade level."
+    }
+  ]
+}

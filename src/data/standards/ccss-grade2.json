@@ -1,0 +1,244 @@
+{
+  "source": "Common Core State Standards Initiative — corestandards.org",
+  "grade": 2,
+  "standards": [
+    {
+      "id": "CCSS.Math.Content.2.OA.A.1",
+      "grade": 2,
+      "domain_code": "OA",
+      "domain_name": "Operations and Algebraic Thinking",
+      "cluster_letter": "A",
+      "cluster_desc": "Represent and solve problems involving addition and subtraction.",
+      "description": "Use addition and subtraction within 100 to solve one- and two-step word problems involving situations of adding to, taking from, putting together, taking apart, and comparing, with unknowns in all positions, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem."
+    },
+    {
+      "id": "CCSS.Math.Content.2.OA.B.2",
+      "grade": 2,
+      "domain_code": "OA",
+      "domain_name": "Operations and Algebraic Thinking",
+      "cluster_letter": "B",
+      "cluster_desc": "Add and subtract within 20.",
+      "description": "Fluently add and subtract within 20 using mental strategies. By end of Grade 2, know from memory all sums of two one-digit numbers."
+    },
+    {
+      "id": "CCSS.Math.Content.2.OA.C.3",
+      "grade": 2,
+      "domain_code": "OA",
+      "domain_name": "Operations and Algebraic Thinking",
+      "cluster_letter": "C",
+      "cluster_desc": "Work with equal groups of objects to gain foundations for multiplication.",
+      "description": "Determine whether a group of objects (up to 20) has an odd or even number of members, e.g., by pairing objects or counting them by 2s; write an equation to express an even number as a sum of two equal addends."
+    },
+    {
+      "id": "CCSS.Math.Content.2.OA.C.4",
+      "grade": 2,
+      "domain_code": "OA",
+      "domain_name": "Operations and Algebraic Thinking",
+      "cluster_letter": "C",
+      "cluster_desc": "Work with equal groups of objects to gain foundations for multiplication.",
+      "description": "Use addition to find the total number of objects arranged in rectangular arrays with up to 5 rows and up to 5 columns; write an equation to express the total as a sum of equal addends."
+    },
+    {
+      "id": "CCSS.Math.Content.2.NBT.A.1",
+      "grade": 2,
+      "domain_code": "NBT",
+      "domain_name": "Number and Operations in Base Ten",
+      "cluster_letter": "A",
+      "cluster_desc": "Understand place value.",
+      "description": "Understand that the three digits of a three-digit number represent amounts of hundreds, tens, and ones; e.g., 706 equals 7 hundreds, 0 tens, and 6 ones.",
+      "sub_standards": [
+        { "id": "CCSS.Math.Content.2.NBT.A.1a", "description": "100 can be thought of as a bundle of ten tens — called a 'hundred.'" },
+        { "id": "CCSS.Math.Content.2.NBT.A.1b", "description": "The numbers 100, 200, 300, 400, 500, 600, 700, 800, 900 refer to one, two, three, four, five, six, seven, eight, or nine hundreds (and 0 tens and 0 ones)." }
+      ]
+    },
+    {
+      "id": "CCSS.Math.Content.2.NBT.A.2",
+      "grade": 2,
+      "domain_code": "NBT",
+      "domain_name": "Number and Operations in Base Ten",
+      "cluster_letter": "A",
+      "cluster_desc": "Understand place value.",
+      "description": "Count within 1000; skip-count by 5s, 10s, and 100s."
+    },
+    {
+      "id": "CCSS.Math.Content.2.NBT.A.3",
+      "grade": 2,
+      "domain_code": "NBT",
+      "domain_name": "Number and Operations in Base Ten",
+      "cluster_letter": "A",
+      "cluster_desc": "Understand place value.",
+      "description": "Read and write numbers to 1000 using base-ten numerals, number names, and expanded form."
+    },
+    {
+      "id": "CCSS.Math.Content.2.NBT.A.4",
+      "grade": 2,
+      "domain_code": "NBT",
+      "domain_name": "Number and Operations in Base Ten",
+      "cluster_letter": "A",
+      "cluster_desc": "Understand place value.",
+      "description": "Compare two three-digit numbers based on meanings of the hundreds, tens, and ones digits, using >, =, and < symbols to record the results of comparisons."
+    },
+    {
+      "id": "CCSS.Math.Content.2.NBT.B.5",
+      "grade": 2,
+      "domain_code": "NBT",
+      "domain_name": "Number and Operations in Base Ten",
+      "cluster_letter": "B",
+      "cluster_desc": "Use place value understanding and properties of operations to add and subtract.",
+      "description": "Fluently add and subtract within 100 using strategies based on place value, properties of operations, and/or the relationship between addition and subtraction."
+    },
+    {
+      "id": "CCSS.Math.Content.2.NBT.B.6",
+      "grade": 2,
+      "domain_code": "NBT",
+      "domain_name": "Number and Operations in Base Ten",
+      "cluster_letter": "B",
+      "cluster_desc": "Use place value understanding and properties of operations to add and subtract.",
+      "description": "Add up to four two-digit numbers using strategies based on place value and properties of operations."
+    },
+    {
+      "id": "CCSS.Math.Content.2.NBT.B.7",
+      "grade": 2,
+      "domain_code": "NBT",
+      "domain_name": "Number and Operations in Base Ten",
+      "cluster_letter": "B",
+      "cluster_desc": "Use place value understanding and properties of operations to add and subtract.",
+      "description": "Add and subtract within 1000, using concrete models or drawings and strategies based on place value, properties of operations, and/or the relationship between addition and subtraction; relate the strategy to a written method. Understand that in adding or subtracting three-digit numbers, one adds or subtracts hundreds and hundreds, tens and tens, ones and ones; and sometimes it is necessary to compose or decompose tens or hundreds."
+    },
+    {
+      "id": "CCSS.Math.Content.2.NBT.B.8",
+      "grade": 2,
+      "domain_code": "NBT",
+      "domain_name": "Number and Operations in Base Ten",
+      "cluster_letter": "B",
+      "cluster_desc": "Use place value understanding and properties of operations to add and subtract.",
+      "description": "Mentally add 10 or 100 to a given number 100–900, and mentally subtract 10 or 100 from a given number 100–900."
+    },
+    {
+      "id": "CCSS.Math.Content.2.NBT.B.9",
+      "grade": 2,
+      "domain_code": "NBT",
+      "domain_name": "Number and Operations in Base Ten",
+      "cluster_letter": "B",
+      "cluster_desc": "Use place value understanding and properties of operations to add and subtract.",
+      "description": "Explain why addition and subtraction strategies work, using place value and the properties of operations."
+    },
+    {
+      "id": "CCSS.Math.Content.2.MD.A.1",
+      "grade": 2,
+      "domain_code": "MD",
+      "domain_name": "Measurement and Data",
+      "cluster_letter": "A",
+      "cluster_desc": "Measure and estimate lengths in standard units.",
+      "description": "Measure the length of an object by selecting and using appropriate tools such as rulers, yardsticks, meter sticks, and measuring tapes."
+    },
+    {
+      "id": "CCSS.Math.Content.2.MD.A.2",
+      "grade": 2,
+      "domain_code": "MD",
+      "domain_name": "Measurement and Data",
+      "cluster_letter": "A",
+      "cluster_desc": "Measure and estimate lengths in standard units.",
+      "description": "Measure the length of an object twice, using length units of different lengths for the two measurements; describe how the two measurements relate to the size of the unit chosen."
+    },
+    {
+      "id": "CCSS.Math.Content.2.MD.A.3",
+      "grade": 2,
+      "domain_code": "MD",
+      "domain_name": "Measurement and Data",
+      "cluster_letter": "A",
+      "cluster_desc": "Measure and estimate lengths in standard units.",
+      "description": "Estimate lengths using units of inches, feet, centimeters, and meters."
+    },
+    {
+      "id": "CCSS.Math.Content.2.MD.A.4",
+      "grade": 2,
+      "domain_code": "MD",
+      "domain_name": "Measurement and Data",
+      "cluster_letter": "A",
+      "cluster_desc": "Measure and estimate lengths in standard units.",
+      "description": "Measure to determine how much longer one object is than another, expressing the length difference in terms of a standard length unit."
+    },
+    {
+      "id": "CCSS.Math.Content.2.MD.B.5",
+      "grade": 2,
+      "domain_code": "MD",
+      "domain_name": "Measurement and Data",
+      "cluster_letter": "B",
+      "cluster_desc": "Relate addition and subtraction to length.",
+      "description": "Use addition and subtraction within 100 to solve word problems involving lengths that are given in the same units, e.g., by using drawings (such as drawings of rulers) and equations with a symbol for the unknown number to represent the problem."
+    },
+    {
+      "id": "CCSS.Math.Content.2.MD.B.6",
+      "grade": 2,
+      "domain_code": "MD",
+      "domain_name": "Measurement and Data",
+      "cluster_letter": "B",
+      "cluster_desc": "Relate addition and subtraction to length.",
+      "description": "Represent whole numbers as lengths from 0 on a number line diagram with equally spaced points; represent whole-number sums and differences within 100 on a number line diagram."
+    },
+    {
+      "id": "CCSS.Math.Content.2.MD.C.7",
+      "grade": 2,
+      "domain_code": "MD",
+      "domain_name": "Measurement and Data",
+      "cluster_letter": "C",
+      "cluster_desc": "Work with time and money.",
+      "description": "Tell and write time from analog and digital clocks to the nearest five minutes, using a.m. and p.m."
+    },
+    {
+      "id": "CCSS.Math.Content.2.MD.C.8",
+      "grade": 2,
+      "domain_code": "MD",
+      "domain_name": "Measurement and Data",
+      "cluster_letter": "C",
+      "cluster_desc": "Work with time and money.",
+      "description": "Solve word problems involving dollar bills, quarters, dimes, nickels, and pennies, using $ and ¢ symbols appropriately."
+    },
+    {
+      "id": "CCSS.Math.Content.2.MD.D.9",
+      "grade": 2,
+      "domain_code": "MD",
+      "domain_name": "Measurement and Data",
+      "cluster_letter": "D",
+      "cluster_desc": "Represent and interpret data.",
+      "description": "Generate measurement data by measuring lengths of several objects to the nearest whole unit, or by making repeated measurements of the same object. Show the measurements by making a line plot, where the horizontal scale is marked off in whole-number units."
+    },
+    {
+      "id": "CCSS.Math.Content.2.MD.D.10",
+      "grade": 2,
+      "domain_code": "MD",
+      "domain_name": "Measurement and Data",
+      "cluster_letter": "D",
+      "cluster_desc": "Represent and interpret data.",
+      "description": "Draw a picture graph and a bar graph (with single-unit scale) to represent a data set with up to four categories. Solve simple put-together, take-apart, and compare problems using information presented in a bar graph."
+    },
+    {
+      "id": "CCSS.Math.Content.2.G.A.1",
+      "grade": 2,
+      "domain_code": "G",
+      "domain_name": "Geometry",
+      "cluster_letter": "A",
+      "cluster_desc": "Reason with shapes and their attributes.",
+      "description": "Recognize and draw shapes having specified attributes, such as a given number of angles or a given number of equal faces. Identify triangles, quadrilaterals, pentagons, hexagons, and cubes."
+    },
+    {
+      "id": "CCSS.Math.Content.2.G.A.2",
+      "grade": 2,
+      "domain_code": "G",
+      "domain_name": "Geometry",
+      "cluster_letter": "A",
+      "cluster_desc": "Reason with shapes and their attributes.",
+      "description": "Partition a rectangle into rows and columns of same-size squares and count to find the total number of them."
+    },
+    {
+      "id": "CCSS.Math.Content.2.G.A.3",
+      "grade": 2,
+      "domain_code": "G",
+      "domain_name": "Geometry",
+      "cluster_letter": "A",
+      "cluster_desc": "Reason with shapes and their attributes.",
+      "description": "Partition circles and rectangles into two, three, or four equal shares, describe the shares using the words halves, thirds, half of, a third of, etc., and describe the whole as two halves, three thirds, four fourths. Recognize that equal shares of identical wholes need not have the same shape."
+    }
+  ]
+}
